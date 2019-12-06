@@ -6,6 +6,14 @@ body {
     padding-bottom: 70px;
 }
 
+@font-face {
+    font-family: myNoelan;
+    src: url("../fonts/noelan/noelan.eot") format('embedded-opentype');
+    src: url('../fonts/noelan/noelan.woff2') format('woff2'),
+         url('../fonts/noelan/noelan.woff') format('woff'),
+         url('../fonts/noelan/noelan.ttf') format('truetype');
+}
+
 .thumbnail {
     position: relative;
 }
