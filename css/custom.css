@@ -6,6 +6,18 @@ body {
     padding-bottom: 70px;
 }
 
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
 a:hover {
   color: #FF66B2;
   text-decoration: none;
