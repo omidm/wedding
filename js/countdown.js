@@ -24,14 +24,14 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="countdown"
   if (distance > 0) {
-    document.getElementById("countdown").innerHTML =
-  	days + "days " +
-  	hours + "hours " +
-  	minutes + "minutes " +
-  	seconds + "seconds";
+    document.getElementById("countdown-days").innerHTML = days;
+    document.getElementById("countdown-hrs").innerHTML = hours;
+    document.getElementById("countdown-mins").innerHTML = minutes;
+    document.getElementById("countdown-secs").innerHTML = seconds;
   }
   // If the count down is finished, write some text
   if (distance < 0) {
+    clearInterval(x);
     document.getElementById("countdown").innerHTML = "We got married on " + weddingDate;
   }
 }, 1000);
