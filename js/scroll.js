@@ -10,8 +10,8 @@ $( document ).ready(function() {
         scrollToAnchor('rsvp');
   });
 
-  $("#story-link").click(function() {
-        scrollToAnchor('story');
+  $("#memory-link").click(function() {
+        scrollToAnchor('memory');
   });
 
   $("#location-link").click(function() {
