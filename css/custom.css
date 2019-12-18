@@ -14,9 +14,25 @@ body {
          url('../fonts/noelan/noelan.ttf') format('truetype');
 }
 
-.countdown {
+h1, p, .countdown {
   text-align: center;
   font-family: myNoelan;
+}
+
+/* Make font size responsive based on view port, and give it a max size. */ 
+h1 {
+  font-size: 5vw;
+}
+p {
+  font-size: 3vw;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+     font-size: 40px;
+  }
+  p {
+     font-size: 24px;
+  }
 }
 
 .thumbnail {
