@@ -14,7 +14,7 @@ body {
          url('../fonts/noelan/noelan.ttf') format('truetype');
 }
 
-h1, p, .countdown {
+h1, h2, .countdown {
   text-align: center;
   font-family: myNoelan;
 }
@@ -23,15 +23,21 @@ h1, p, .countdown {
 h1 {
   font-size: 5vw;
 }
+h2 {
+  font-size: 4vw;
+}
 p {
   font-size: 3vw;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   h1 {
-     font-size: 40px;
+     font-size: 30px;
+  }
+  h2 {
+     font-size: 24px;
   }
   p {
-     font-size: 24px;
+     font-size: 18px;
   }
 }
 
