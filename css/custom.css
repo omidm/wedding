@@ -75,6 +75,7 @@ a {
 
 .jumbotron {
   text-align: justify;
+  background-color: #FFFFFF; /*#FFF0F7;*/
 }
 
 .paper-icon {
