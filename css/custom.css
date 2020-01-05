@@ -26,6 +26,9 @@ h1 {
 h2 {
   font-size: 4vw;
 }
+p {
+  font-size: 3.5vw;
+}
 .jumbotron p {
   font-size: 3.5vw;
 }
@@ -35,6 +38,9 @@ h2 {
   }
   h2 {
      font-size: 24px;
+  }
+  p {
+     font-size: 21px;
   }
   .jumbotron p {
      font-size: 21px;
