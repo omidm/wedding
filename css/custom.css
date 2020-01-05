@@ -16,7 +16,7 @@ body {
 
 h1, h2, .countdown {
   text-align: center;
-  font-family: myNoelan;
+  font-family: cursive,myNoelan;
 }
 
 /* Make font size responsive based on view port, and give it a max size. */ 
@@ -27,7 +27,7 @@ h2 {
   font-size: 4vw;
 }
 .jumbotron p {
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 @media screen and (min-width: 600px) {
   h1 {
@@ -37,7 +37,7 @@ h2 {
      font-size: 24px;
   }
   .jumbotron p {
-     font-size: 18px;
+     font-size: 21px;
   }
 }
 
@@ -47,7 +47,7 @@ h2 {
 
 .caption {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 0;
     width: 100%;
     color: white;
