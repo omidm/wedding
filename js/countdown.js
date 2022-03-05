@@ -1,8 +1,8 @@
 // Countdown script inspired from W3school website:
 // https://www.w3schools.com/howto/howto_js_countdown.asp
 
-var weddingDate = "July 9, 2020"; 
-var weddingTime = "19:00:00";
+var weddingDate = "June 23, 2022"; 
+var weddingTime = "07:30:00";
 
 // Set the date we're counting down to
 var countDownDate = new Date(weddingDate + " " + weddingTime).getTime();
@@ -32,6 +32,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "We got married on " + weddingDate;
+    document.getElementById("countdown").innerHTML = "We had our wedding on " + weddingDate;
   }
 }, 1000);
